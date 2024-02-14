@@ -25,7 +25,7 @@ Lodash makes JavaScript easier by taking the hassle out of working with arrays, 
 In out package.json we see now: 
 ```json
 "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21" // 4 is major version 17 is minor release - f.e new featurze and 21 is patch release - if they found bugs fixes it will update
   }
 ```
 
@@ -37,3 +37,6 @@ Now we can import to our `scripts.js` like:
 import {without} from 'loadash' // destructuring 
 
 ``` 
+
+## Important 
+When using npm dont load whole libs. Use only this modules thaht you really need!
