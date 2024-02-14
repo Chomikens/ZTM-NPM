@@ -55,3 +55,14 @@ import {without} from 'loadash' // destructuring
 -   **Definition**: DevDependencies are libraries or packages required only during the development process. They are not needed in the production environment or for the application to run for the end user.
 -   **Usage**: These include tools used for compiling/transpiling code, running tests, or managing the build process.
 -   **Example**: This might include testing libraries like Jest or Mocha, build tools like Webpack or Gulp, or compilers like Babel.
+
+
+## NPM Scripts 
+Definition: npm scripts are commands that you can define in the package.json file of a Node.js project to run various tasks. These tasks can range from simple commands like starting your application to more complex sequences of tasks such as running tests, linting code, or compiling source files.
+
+```json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "browserify script.js > bundle.js"
+  },
+```
